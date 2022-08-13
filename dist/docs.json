@@ -1,0 +1,37 @@
+{
+  "api": {
+    "name": "AppTrackingTransparencyPlugin",
+    "slug": "apptrackingtransparencyplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getStatus",
+        "signature": "() => Promise<AppTrackingStatusResponse>",
+        "parameters": [],
+        "returns": "Promise<AppTrackingStatusResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AppTrackingStatusResponse"
+        ],
+        "slug": "getstatus"
+      },
+      {
+        "name": "requestPermission",
+        "signature": "() => Promise<AppTrackingStatusResponse>",
+        "parameters": [],
+        "returns": "Promise<AppTrackingStatusResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AppTrackingStatusResponse"
+        ],
+        "slug": "requestpermission"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": []
+}
